@@ -1,0 +1,64 @@
+<routes>
+    <vType id="Car" accel="5.0" decel="2.0" sigma="0.5" maxSpeed="30" length="5.0" color="255,0,0" vClass="passenger" minGap="0" tau="0.5"/>
+    <vType id="Car1" carFollowModel="IDM" accel="2.5" decel="4.5" sigma="1.0" maxSpeed="30" length="5.0" color="255, 255, 255" vClass="passenger"/>
+    <vType id="Car2" carFollowModel="IDM" accel="2.5" decel="4.5" sigma="1.0" maxSpeed="30" length="5.0" color="255, 255, 255" vClass="passenger"/>
+    <vType id="Car3" carFollowModel="IDM" accel="2.5" decel="4.5" sigma="1.0" maxSpeed="30" length="5.0" color="255, 255, 255" vClass="passenger"/>
+    <vType id="Car4" carFollowModel="IDM" accel="2.5" decel="4.5" sigma="1.0" maxSpeed="30" length="5.0" color="255, 255, 255" vClass="passenger"/>
+    <vType id="Car5" carFollowModel="IDM" accel="2.5" decel="4.5" sigma="1.0" maxSpeed="30" length="5.0" color="255, 255, 255" vClass="passenger"/>
+    <route id="Straight" edges="Lane"/>
+    <vehicle id="Car" type="Car" route="Straight" depart="0" departDelay="0" departLane="1" departPos="200"  destination="Lane" arrivalLane="0" departSpeed="10"/>
+    <vehicle id="CarF" type="Car1" route="Straight" depart="0" departDelay="0" departLane="1" departPos="232" destination="Lane" arrivalLane="0" departSpeed="5"/>
+    <vehicle id="Car0" type="Car2" route="Straight" depart="0" departDelay="0" departLane="0" departPos="115" destination="Lane" arrivalLane="0" departSpeed="5"/>
+    <vehicle id="Car1" type="Car2" route="Straight" depart="0" departDelay="0" departLane="1" departPos="400"  destination="Lane" arrivalLane="0" departSpeed="3"/>
+    <vehicle id="Car2" type="Car" route="Straight" depart="0" departDelay="0" departLane="0" departPos="300" destination="Lane" arrivalLane="0" departSpeed="3"/>
+    <vehicle id="Car3" type="Car5" route="Straight" depart="0" departDelay="0" departLane="1" departPos="120" destination="Lane" arrivalLane="1" departSpeed="0"/>
+    <vehicle id="Car4" type="Car3" route="Straight" depart="0" departDelay="0" departLane="1" departPos="650" destination="Lane" arrivalLane="1" departSpeed="5"/>
+    <vehicle id="Car5" type="Car4" route="Straight" depart="0" departDelay="0" departLane="1" departPos="280" destination="Lane" arrivalLane="1" departSpeed="2"/>
+    <vehicle id="Car6" type="Car4" route="Straight" depart="0" departDelay="0" departLane="1" departPos="770" destination="Lane" arrivalLane="1" departSpeed="3"/>
+    <vehicle id="Car7" type="Car5" route="Straight" depart="0" departDelay="0" departLane="2" departPos="200" destination="Lane" arrivalLane="2" departSpeed="3"/>
+    <vehicle id="Car8" type="Car" route="Straight" depart="0" departDelay="0" departLane="2" departPos="240" destination="Lane" arrivalLane="2" departSpeed="0"/>
+    <vehicle id="Car9" type="Car2" route="Straight" depart="0" departDelay="0" departLane="0" departPos="400" destination="Lane" arrivalLane="0" departSpeed="5"/>
+    <vehicle id="Car10" type="Car5" route="Straight" depart="0" departDelay="0" departLane="0" departPos="440"  destination="Lane" arrivalLane="0" departSpeed="0"/>
+    <vehicle id="Car11" type="Car2" route="Straight" depart="0" departDelay="0" departLane="0" departPos="480" destination="Lane" arrivalLane="0" departSpeed="3"/>
+    <vehicle id="Car12" type="Car3" route="Straight" depart="0" departDelay="0" departLane="0" departPos="520" destination="Lane" arrivalLane="1" departSpeed="3"/>
+    <vehicle id="Car13" type="Car5" route="Straight" depart="0" departDelay="0" departLane="1" departPos="510" destination="Lane" arrivalLane="1" departSpeed="0"/>
+    <vehicle id="Car14" type="Car4" route="Straight" depart="0" departDelay="0" departLane="1" departPos="550" destination="Lane" arrivalLane="1" departSpeed="2"/>
+    <vehicle id="Car15" type="Car4" route="Straight" depart="0" departDelay="0" departLane="1" departPos="590" destination="Lane" arrivalLane="1" departSpeed="3"/>
+    <vehicle id="Car16" type="Car4" route="Straight" depart="0" departDelay="0" departLane="2" departPos="610" destination="Lane" arrivalLane="2" departSpeed="3"/>
+    <vehicle id="Car17" type="Car5" route="Straight" depart="0" departDelay="0" departLane="2" departPos="650" destination="Lane" arrivalLane="2" departSpeed="0"/>
+    <vehicle id="Car19" type="Car2" route="Straight" depart="0" departDelay="0" departLane="2" departPos="400" destination="Lane" arrivalLane="0" departSpeed="5"/>
+    <vehicle id="Car20" type="Car2" route="Straight" depart="0" departDelay="0" departLane="2" departPos="440"  destination="Lane" arrivalLane="0" departSpeed="3"/>
+    <vehicle id="Car21" type="Car2" route="Straight" depart="0" departDelay="0" departLane="2" departPos="480" destination="Lane" arrivalLane="0" departSpeed="0"/>
+    <vehicle id="Car22" type="Car3" route="Straight" depart="0" departDelay="0" departLane="2" departPos="710" destination="Lane" arrivalLane="1" departSpeed="3"/>
+    <vehicle id="Car23" type="Car3" route="Straight" depart="0" departDelay="0" departLane="0" departPos="560" destination="Lane" arrivalLane="1" departSpeed="5"/>
+    <vehicle id="Car24" type="Car5" route="Straight" depart="0" departDelay="0" departLane="0" departPos="350" destination="Lane" arrivalLane="1" departSpeed="2"/>
+    <vehicle id="Car25" type="Car4" route="Straight" depart="0" departDelay="0" departLane="0" departPos="620" destination="Lane" arrivalLane="1" departSpeed="0"/>
+    <vehicle id="Car26" type="Car4" route="Straight" depart="0" departDelay="0" departLane="1" departPos="450" destination="Lane" arrivalLane="2" departSpeed="3"/>
+    <vehicle id="Car27" type="Car5" route="Straight" depart="0" departDelay="0" departLane="1" departPos="690" destination="Lane" arrivalLane="2" departSpeed="0"/>
+    <vehicle id="Car28" type="Car2" route="Straight" depart="0" departDelay="0" departLane="1" departPos="350" destination="Lane" arrivalLane="0" departSpeed="3"/>
+    <vehicle id="Car29" type="Car3" route="Straight" depart="0" departDelay="0" departLane="2" departPos="40" destination="Lane" arrivalLane="1" departSpeed="3"/>
+    <vehicle id="Car30" type="Car3" route="Straight" depart="0" departDelay="0" departLane="0" departPos="70" destination="Lane" arrivalLane="1" departSpeed="0"/>
+    <vehicle id="Car31" type="Car3" route="Straight" depart="0" departDelay="0" departLane="0" departPos="160" destination="Lane" arrivalLane="1" departSpeed="2"/>
+    <vehicle id="Car32" type="Car4" route="Straight" depart="0" departDelay="0" departLane="2" departPos="120" destination="Lane" arrivalLane="1" departSpeed="3"/>
+    <vehicle id="Car33" type="Car4" route="Straight" depart="0" departDelay="0" departLane="1" departPos="160" destination="Lane" arrivalLane="2" departSpeed="0"/>
+    <vehicle id="Car34" type="Car5" route="Straight" depart="0" departDelay="0" departLane="2" departPos="80" destination="Lane" arrivalLane="2" departSpeed="5"/>
+    <vehicle id="Car35" type="Car2" route="Straight" depart="0" departDelay="0" departLane="2" departPos="160" destination="Lane" arrivalLane="1" departSpeed="3"/>
+
+    <vehicle id="Car36" type="Car2" route="Straight" depart="0" departDelay="0" departLane="0" departPos="770"  destination="Lane" arrivalLane="0" departSpeed="0"/>
+    <vehicle id="Car37" type="Car2" route="Straight" depart="0" departDelay="0" departLane="1" departPos="810" destination="Lane" arrivalLane="0" departSpeed="5"/>
+    <vehicle id="Car38" type="Car2" route="Straight" depart="0" departDelay="0" departLane="0" departPos="810" destination="Lane" arrivalLane="0" departSpeed="5"/>
+    <vehicle id="Car40" type="Car2" route="Straight" depart="0" departDelay="0" departLane="2" departPos="810" destination="Lane" arrivalLane="0" departSpeed="3"/>
+    <vehicle id="Car41" type="Car3" route="Straight" depart="0" departDelay="0" departLane="0" departPos="845" destination="Lane" arrivalLane="1" departSpeed="3"/>
+    <vehicle id="Car42" type="Car5" route="Straight" depart="0" departDelay="0" departLane="1" departPos="845" destination="Lane" arrivalLane="1" departSpeed="0"/>
+    <vehicle id="Car43" type="Car4" route="Straight" depart="0" departDelay="0" departLane="2" departPos="845" destination="Lane" arrivalLane="1" departSpeed="2"/>
+    <vehicle id="Car44" type="Car4" route="Straight" depart="0" departDelay="0" departLane="0" departPos="880" destination="Lane" arrivalLane="1" departSpeed="3"/>
+    <vehicle id="Car45" type="Car4" route="Straight" depart="0" departDelay="0" departLane="1" departPos="880" destination="Lane" arrivalLane="2" departSpeed="3"/>
+    <vehicle id="Car46" type="Car4" route="Straight" depart="0" departDelay="0" departLane="2" departPos="880" destination="Lane" arrivalLane="2" departSpeed="0"/>
+    <vehicle id="Car47" type="Car2" route="Straight" depart="0" departDelay="0" departLane="0" departPos="905" destination="Lane" arrivalLane="0" departSpeed="0"/>
+    <vehicle id="Car48" type="Car5" route="Straight" depart="0" departDelay="0" departLane="1" departPos="905"  destination="Lane" arrivalLane="0" departSpeed="3"/>
+    <vehicle id="Car49" type="Car2" route="Straight" depart="0" departDelay="0" departLane="2" departPos="905" destination="Lane" arrivalLane="0" departSpeed="3"/>
+    <vehicle id="Car50" type="Car3" route="Straight" depart="0" departDelay="0" departLane="0" departPos="940" destination="Lane" arrivalLane="1" departSpeed="3"/>
+    <vehicle id="Car51" type="Car3" route="Straight" depart="0" departDelay="0" departLane="1" departPos="940" destination="Lane" arrivalLane="1" departSpeed="5"/>
+    <vehicle id="Car52" type="Car4" route="Straight" depart="0" departDelay="0" departLane="2" departPos="940" destination="Lane" arrivalLane="1" departSpeed="2"/>
+</routes>
+
