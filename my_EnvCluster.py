@@ -601,7 +601,7 @@ class LaneChangePredict(gym.Env):
 
         d_a = -0.1
         d_n = 0
-        d_d = 0.2
+        d_d = 0.1
         dsID = self.id_list
         u = self.driverStyleReward(i)
 
@@ -759,8 +759,6 @@ class LaneChangePredict(gym.Env):
         w1 = 1
         w2 = 1
         w3 = 1
-        w4 = 1
-
         if state[0] > state[2]:
             fv = self.min_max_normalize(state[2] - state[0], 0, 30)
         else:
@@ -797,7 +795,7 @@ class LaneChangePredict(gym.Env):
 
         sigma_t = np.random.normal(0, 0.001)
 
-        opi = w1 * fv + w2 * fd + w3 * ft + w4 * fs + sigma_t
+        opi = w1 * fv + w2 * fd + w3 * ft + sigma_t
 
         return opi / 3
 

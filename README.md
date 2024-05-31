@@ -24,6 +24,24 @@ traci == 1.16.0
 
 If users encounter environmental problems and reference package version problems that prevent the program from running, please refer to the above installation package and corresponding version.
 
+## Installation
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-repo/LCOMCCV.git
+   cd LCOMCCV
+   
+2. **Create a virtual environment:**
+    python3 -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+3. **Install dependencies:**
+    Set up the necessary environment variables as described in 'config/environment.md'.
+
+## Project structure introduction
+LCOMCCV is the root directory of the project, and the secondary directory includes two folders and three python files. The folder "agents" is the model code we designed. The folder "data" is the simulation environment we built using sumo, which includes: 1) "xxx.net.xml" is the defined road network structure; 2) "xxx.rou.xml" is the defined road traffic flow; 3) "xxx.sumocfg" is the configuration file of sumo. For the three python files in the secondary directory: 1) "driverStyleCluster.py" is the IDP-FCM algorithm we designed; 2) "mainL3_MARL.py" is the main file of our project; 3) "my_EnvCluster.py" is the RL environment we designed.
+
+## Running the Code
+After completing the basic configuration of the project according to the above steps, click ‘Run’ in the “mainL3_MARL.py” file to train our model.
+
 ## Statement
 
 In this project, due to the different parameter settings such as the location of the connected vehicle, the location of the target vehicle, and the state of surrounding vehicles, etc., the parameters of the reinforcement learning algorithm are set differently, and the reinforcement learning process is different, resulting in different experimental results. In addition, the parameters of the specific network model refer to the parameter settings in the experimental part of the paper. If you want to know more, please refer to our paper "Collaborative Overtaking Strategy for Enhancing Overall Effectiveness of Mixed Connected and Connectionless Vehicles".
