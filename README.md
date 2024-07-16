@@ -37,10 +37,8 @@ If users encounter environmental problems and reference package version problems
     Set up the necessary environment variables as described in 'config/environment.md'.
 
 ## Project structure introduction
-LCOMCCV is the root directory of the project, and the secondary directory includes two folders and three python files. The folder "agents" is the model code we designed. The folder "data" is the simulation environment we built using sumo, which includes: 1) "xxx.net.xml" is the defined road network structure; 2) "xxx.rou.xml" is the defined road traffic flow; 3) "xxx.sumocfg" is the configuration file of sumo. For the three python files in the secondary directory: 1) "driverStyleCluster.py" is the IDP-FCM algorithm we designed; 2) "mainL3_MARL.py" is the main file of our project; 3) "my_EnvCluster.py" is the RL environment we designed.
+LCOMCCV is the root directory of the project, and the secondary directory includes two folders and three python files. The folder "agents" is the model code we designed. The folder "data" is the simulation environment we built using sumo, which includes: 1) "xxx.net.xml" is the defined road network structure; 2) "xxx.rou.xml" is the defined road traffic flow; 3) "xxx.sumocfg" is the configuration file of sumo. For the three python files in the secondary directory: 1) "driverStyleCluster.py" is the IDP-FCM algorithm we designed; 2) "my_EnvCluster.py" is the RL environment we designed.
 
-## Running the Code
-After completing the basic configuration of the project according to the above steps, click ‘Run’ in the “mainL3_MARL.py” file to train our model.
 
 ## Statement
 
